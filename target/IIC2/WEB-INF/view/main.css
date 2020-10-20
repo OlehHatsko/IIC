@@ -1,0 +1,179 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #fff;	
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	background-color: #222;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 2;
+}
+.menu{
+	height: 30px;
+	width: 100%;
+	background-color: #95a3b3;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;color:#222;
+}
+#logForm input{
+	margin: 0 5px;
+	font-size: 1.1em;
+	border-radius: 4px;
+	border:0px solid #222;
+	padding: 4px;
+}
+#secLogForm input{
+	margin: 5px;
+	font-size: 1.1em;
+	border-radius: 4px;
+	border:0px solid #222;
+	padding: 4px;
+	width: 75%;
+
+}
+.mainDiv{
+	height: 600px;
+	background-color: #fff;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - 160px);
+}
+.errWindow{
+	background-color: #4b436d;
+	height: 40%;
+	color: #fff;
+	padding:20px
+}
+.functionMenu{
+	border-bottom: 1px solid #222;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+.functionMenu .funcOpt{
+	background-color: #84dcc6;
+	padding: 7px 15px;
+	margin: 0px 15px;
+	border: 1px solid #fff;
+	color: #222;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.functionMenu .funcOpt:hover{
+	background-color: #54b89f;
+}
+.stManagement{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	min-height: calc(100vh - 210px)
+}
+.toggled{
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #222222;
+	top: 50px;
+	z-index: 1;
+}
+.toggled form{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 300px;
+}
+.toggled input{
+	display: inline-block;
+	margin: 5px;
+	font-size: 1.1em;
+	border-radius: 4px;
+	border:1px solid #222;
+	padding: 4px;
+	height: 30px;
+}
+.toggled button{
+	background-color: #84dcc6;
+	padding: 7px 15px;
+	margin: 0px 15px;
+	border: 1px solid #fff;
+	color: #222;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.toggled button:hover{
+	background-color: #54b89f;
+}
+.userOpt{
+	cursor: pointer;
+	color: #fff;
+	position: relative;
+	width: 100%;
+	height: 20px;
+	padding: 5px;
+}
+.userOpt:hover{
+	background-color: #222;
+}
+.midUserOpt{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 0;
+	height: 20px;
+	width: 100%;
+	color: #222222;
+}
+.midUserOpt:hover{
+	background-color:#ebebeb;
+}
+.groupOpt{
+	width: 100%;
+	border-bottom: 1px solid #ffffff;
+	font-size: 1.2em;
+	color: #ffffff;
+	position:relative;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.groupOpt:hover{
+	background-color: #fff;
+	color:#222;
+}
+.chGroupOpt {
+	background-color: #fff;
+	color:#222;
+}
+table{
+	border-collapse: collapse;
+	font-size: 1.3em;
+}
+table form{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+table form input{
+	width: 40%
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	padding: 0 10px;
+}
+tr:hover {background-color: #f5f5f5;}
+
